@@ -6,50 +6,26 @@ body{
 }
 
 
-
-
-
 .padding{
-  
-  
-  
-  
-  
+  padding: 1px;
+  border: 1px dotted red;
 }
-
-
-
-
 
 
 .margin{
-  
-  
-  
-  
+  border: 7px dotted red;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 1px;
+  margin-left: 1px;
   
 }
-
-
-
-
-
 
 
 .position{
-  
-  
-  
-  
-  
-  
+  position: sticky;
+  top: 100;
 }
-
-
-
-
-
-
 
 
 .animation{
@@ -57,14 +33,12 @@ body{
 }
 
 
-
-
-@keyframes {
+@keyframes bounce{
   0% {
-    translate: translateY(0)
+    transform: translateY(0)
   }
   100% {
-    translate: translateY(10)
+    transform: translateY(10px)
   }
 }
 

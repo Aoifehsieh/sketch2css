@@ -1,3 +1,14 @@
+body{
+  color: white;
+  font-family: "times new roman";
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
+
 .padding{
   
   
@@ -42,14 +53,20 @@
 
 
 .animation{
-  
-  
-  
-  
-  
-  
+  animation: bounce 0.1s infinite;
 }
 
+
+
+
+@keyframes {
+  0% {
+    translate: translateY(0)
+  }
+  100% {
+    translate: translateY(10)
+  }
+}
 
 
 
